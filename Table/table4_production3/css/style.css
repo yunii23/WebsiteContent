@@ -1,0 +1,46 @@
+body {
+    padding: 50px;
+}
+table.type1 thead {
+    border-top: 2px solid #bd0000;
+    border-bottom: 1px solid #e4e4e4;
+}
+table.type1 thead th {
+    height: 44px;
+    font-size: 15px;
+    color: #585858;
+}
+table.type1 tbody th, table.type1 tbody td  {
+    padding: 16px 21px;
+    border-top: 1px solid #e4e4e4;
+}
+table.type1 tbody th {
+    border-right: 1px solid #e4e4e4;
+    background: #fafafa;
+    font-weight: normal;
+}
+table.type1 tbody td {
+    border-left: 1px solid #e4e4e4;
+    text-align: right;
+    font-size: 17px;
+    color: #333;
+    font-weight: bold;
+}
+table.type1 tbody td[colspan] {
+    text-align: center;
+    
+}
+table.type1 tbody td span {
+    padding: 0 0 0 6px;
+    font-weight: normal;
+    font-size: 15px;
+    
+}
+table.type1 tbody td b {
+    padding: 0 18px 0 66px;
+    font-size: 15px;
+    color: #585858;
+}
+table.type1 tbody td b:first-child {
+    padding-left: 0px;
+}
