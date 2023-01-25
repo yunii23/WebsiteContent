@@ -1,0 +1,50 @@
+body {
+    padding: 50px;
+}
+.paging {
+    text-align: center;
+    font-size: 0;
+}
+.paging li {
+    /*float: left 하면 text-align: center가 안됨
+    inline-block을 쓰면 스페이스 한칸이 생기게 되는데
+    이를 해결하기 위해 부모에다가 font-size: 0을 주고 자식에서 사이즈 초기화*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+}
+.paging li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    color: #898786;
+}
+.paging li a:hover, 
+.paging li.on a {
+    color: #ff5a20;
+    text-decoration: underline;
+}
+.paging li.first a,
+.paging li.prev a,
+.paging li.next a,
+.paging li.last a {
+    overflow: hidden;
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ebeae9;
+    color: transparent;
+    background: no-repeat center;
+}
+.paging li.first a {background-image: url(../images/ico_paging_first.png);}
+/*마지막 숫자가 뭐가 될지 모르기 때문에 prev, next 버튼으로 마진 주는 것이 좋음*/
+.paging li.prev a {
+    margin-right: 23px;
+    background-image: url(../images/ico_paging_prev.png);
+}
+.paging li.next a {
+    margin-left: 23px;
+    background-image: url(../images/ico_paging_next.png);
+}
+.paging li.last a {background-image: url(../images/ico_paging_last.png);}
