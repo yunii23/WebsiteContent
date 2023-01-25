@@ -1,0 +1,34 @@
+body {
+    padding: 50px;
+}
+table {
+    background: url(../images/bg_th2.gif) repeat-x;
+    border-bottom: 1px solid #a3a3a3;
+}
+table.type1 thead th {
+    height: 28px;
+    font-size: 11px;
+    color: #646464;
+}
+table.type1 thead th:first-child {
+    background: url(../images/bg_th1.gif) no-repeat;
+}
+table.type1 thead th:last-child {
+    background: url(../images/bg_th3.gif) no-repeat right top;
+}
+table.type1 tbody th div {
+    font-weight: normal;
+    font-size: 12px;
+}
+table.type1 tbody th, table.type1 tbody td {
+    height: 30px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 12px;
+}
+table.type1 tbody td {
+    text-align: center;
+    border-left: 1px solid #ebebeb;
+} 
+table.type1 tbody tr:first-child th, table.type1 tbody tr:first-child td {
+    border-top: none;
+}
