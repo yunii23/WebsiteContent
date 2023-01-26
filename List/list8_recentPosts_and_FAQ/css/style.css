@@ -1,0 +1,29 @@
+body {
+    padding: 50px;
+}
+.faq h2{
+    font-size: 27px;
+    color: #273238;
+    padding: 0 0 10px;
+}
+.faq li {
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0 0;
+}
+.faq li span {
+    display: inline-block;
+    margin: 0 9px 0 0;
+    width: 25px;
+    height: 25px;
+    font-size: 11px;
+    color: #3f4b52;
+    text-align: center;
+    background: #9ee1ff;
+    line-height: 25px;
+    border-radius: 15px 15px 0 15px;
+}
+.faq li a {
+    font-size: 14px;
+    color: #3f4b52;
+}
