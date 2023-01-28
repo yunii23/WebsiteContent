@@ -1,0 +1,45 @@
+body {
+    padding: 30px;
+}
+
+.tabStyle ul {
+    display: flex;
+    border-bottom: 1px solid #5da62b;
+}
+.tabStyle ul li {
+    flex: 1;
+    height: 60px;
+
+}
+.tabStyle ul li:first-child a {
+    border-left: 1px solid #ddd;
+}
+.tabStyle ul li a {
+    display: block;
+    height: 59px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    border-left: none;
+    font-size: 14px;
+    line-height: 59px;
+    color: #505050;
+    text-align: center;
+}
+.tabStyle ul li a.on {
+    position: relative;
+    height: 58px;
+    border-color: #5da62b;
+    border-top-width: 2px;
+    line-height: 57px;
+    border-bottom: 1px solid #fff;
+}
+.tabStyle ul li a.on::before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: -2px;
+    width: 1px;
+    height: 100%;
+    background: #5da62b;
+    border-top: 2px solid #5da62b;
+}
