@@ -1,0 +1,58 @@
+body {
+    padding: 50px;
+}
+
+.snb {
+    width: 213px;
+}
+.snb h2 {
+    padding: 44px 0 0 18px;
+    height: 86px;
+    color: #fff;
+    background: #36818c;
+    font-size: 27px;
+}
+.snb h2 span {
+    display: block;
+    font-size: 16px;
+}
+.snb > ul > li {
+    border-bottom: 1px solid #e1e1e1;
+}
+.snb > ul > li > a {
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    color: #666;
+    text-indent: 19px;
+}
+.snb > ul > li:hover > a {
+    color: #36818c;
+}
+.snb > ul > li:hover > a::after {
+    margin: 0 0 0 13px;
+    content: url(../images/bg_snb.gif);
+    position: relative;
+    top: 2px;
+}
+.snb > ul > li:hover > a + ul {
+    display: block;
+}
+.snb > ul ul {
+    display: none;
+    padding: 0 0 4px 30px;
+}
+.snb > ul ul a {
+    padding-left: 10px;
+    font-size: 13px;
+    color: #666;
+    background: url(../images/bg_snb2.gif) no-repeat left;
+}
+.snb > ul ul a:hover {
+    color: #36818c;
+    background-image: url(../images/bg_snb2_on.gif);
+}
+.snb > ul ul li {
+    padding: 0 0 11px;
+}
