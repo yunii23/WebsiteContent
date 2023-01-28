@@ -1,0 +1,121 @@
+body {
+    padding: 50px;
+}
+
+.productView {
+    position: relative;
+    padding: 0 0 0 395px;
+    width: 962px;
+    box-sizing: border-box;
+}
+.productView .img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.productView .img > img {
+    width: 368px;
+    height: 370px;
+    border: 1px solid #e8e8e8;
+}
+.productView .img li::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.productView .img li {
+    float: left;
+    padding: 10px 10px 0 0;
+}
+.productView .img li.on img{
+    border-color: #0a56a9;
+}
+.productView .img li img {
+    width: 68px;
+    height: 68px;
+    border: 1px solid #e8e8e8;
+}
+.productView h2 {
+    margin-bottom: 15px;
+    padding: 0 0 20px;
+    font-size: 24px;
+    color: #232323;
+    line-height: 26px;
+    border-bottom: 2px solid #333;
+}
+.productView table th,
+.productView table td {
+    padding: 14px 0;
+    font-size: 15px;
+    color: #444;
+    text-align: left;
+}  
+.productView table td.price {
+    font-size: 22px;
+}
+.productView table td.total {
+    font-size: 19px;
+    color: #0a56a9;
+}
+.productView table td.total b {
+    font-size: 22px;
+}
+.productView table .length {
+    position: relative;
+    width: 71px;
+    height: 32px;
+    border: 1px solid #c6c6c6;
+}
+.productView table .length input {
+    width: 44px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    border-right: 1px solid #c6c6c6;
+}
+.productView table .length a {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 26px;
+    height: 16px;
+    color: transparent;
+}
+.productView table .length a:nth-of-type(1) {
+    top: 0;
+    background: url(../images/ico_up.png) no-repeat center;
+}
+.productView table .length a:nth-of-type(2) {
+    bottom: 0;
+    background: url(../images/ico_down.png) no-repeat center;
+    border-top: 1px solid #c6c6c6;
+}
+.productView table select {
+    width: 100%;
+    border: 1px solid #c6c6c6;
+    box-sizing: border-box;
+    background: url(../images/ico_select.png) no-repeat right 11px center;
+    appearance: none;
+}
+.productView table select::-ms-expand {
+    display: none;
+}
+.productView .btn {
+    padding: 45px 0 0;
+    text-align: center;
+}
+.productView .btn > a {
+    display: inline-block;
+    width: 135px;
+    height: 42px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 2px;
+    line-height: 42px;
+}
+.productView .btn > a.btn1 {
+    background: #666;
+}
+.productView .btn > a.btn2 {
+    background: #0a56a9;
+}
