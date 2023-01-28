@@ -1,0 +1,56 @@
+body {
+    padding: 50px;
+}
+
+.news {
+    width: 1277px;
+    border: 1px solid #cbcbcb;
+}
+.news::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.news > div {
+    float: left;
+    padding: 34px 47px 24px 46px;
+    width: 332px;
+    background: url(../images/ico_blog.gif) no-repeat;
+}
+.news > div h2 {
+    padding: 0 0 19px 0;
+    font-size: 22px;
+    color: #f9aa00;
+}
+.news > div li {
+    line-height: 26px;
+}
+.news > div li a {
+    display: block;
+    overflow: hidden;
+    width: 325px;
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: url(../images/bu_gray.gif) no-repeat left;
+    text-indent: 8px;
+}
+.news > div.fb {
+    width: 334px;
+    background-image: url(../images/ico_facebook.gif);
+    background-color: #3e5b99;
+}
+.news > div.fb h2 {
+    color: #fff;
+}
+.news > div.fb li a {
+    color: #fff;
+    background-image: url(../images/bu_white.gif);
+}
+.news > div.tw {
+    background-image: url(../images/ico_twitter.gif);
+    color: #f7f7f7;
+}
+.news > div.tw h2 {
+    color: #5ad6f6;
+}
