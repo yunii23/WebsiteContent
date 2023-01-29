@@ -3,7 +3,7 @@
 참고자료 -> https://github.com/rebehayan/contents
 
 ## Form ( input, select, textarea )
-1. 약관동의 : 접근성까지 고려한 약관 동의   
+1. 약관동의 : 접근성까지 고려한 약관 동의   [o]
 2. iframe : 아이프레임 활용   
 3. 회원가입 팝업 : jQuery와 HTML5, CSS3를 활용한 팝업형 회원가입   
 4. 로그인페이지 제작 : HTML4, CSS1,2로 제작한 페이지 dotum 폰트   
