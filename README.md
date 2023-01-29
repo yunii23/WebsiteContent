@@ -8,7 +8,7 @@
 3. 회원가입 팝업 : jQuery와 HTML5, CSS3를 활용한 팝업형 회원가입  [o] 
 4. 로그인페이지 제작 : HTML4, CSS1,2로 제작한 페이지 dotum 폰트   [o]
 5. 로그인페이지 제작2 : HTML5, CSS3로 제작한 로그인페이지   [o]
-6. Select요소 디자인 : 순수 CSS만으로 select 디자인하기 (화살표 없애기)   
+6. Select요소 디자인 : 순수 CSS만으로 select 디자인하기 (화살표 없애기)   [o]
 7. 쇼핑몰 상품 상세보기 : HTML5, CSS3로 제작한 상품 상세보기/정보페이지 제작   [o] 
    
 ## Table ( table, th, td )
